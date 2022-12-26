@@ -1,0 +1,52 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-123a74d-a77b362d6ead",
+    "title": "Dumble",
+    "age": "20-25",
+   "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time":15
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-eta74d-a77b362rtead",
+    "title": "Bars",
+    "age": "20-25",
+   "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time":10
+  },
+  {
+    "id": "124e13b9-2d54-4b25f-a74d-a77b3rty762d6ead",
+    "title": "Battle rope",
+    "age": "20-25",
+   "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1514994444123-10094655bdb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+    "time":20
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a734d-a77b3rty6m2d6ead",
+    "title": "Barbell",
+    "age": "20-25",
+    "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time":30
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a7d7b36rsf2d6kead",
+    "title": "Dumble",
+    "age": "20-25",
+   "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time":15
+  },
+  
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a7d7bvdf36k2d6ead",
+    "title": "Barbell",
+    "age": "20-25",
+   "description": " Physical activity refers to any movement produced by skeletal muscle which uses energy whereas physical fitness is measurable state such as strength or endurance. Exercise is planned physical activity with the goal of improving physical fitness and health",
+    "img": "https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time":25
+  }
+  
+]
