@@ -1,4 +1,10 @@
-/* .card-img{
-    width: 230px;
-    height: 150px;
-} */
+.add-btn{
+    background-color: #4B56D2;
+    color: #fff;
+    padding: 6px 58px ;
+    transition: .3s;
+}
+.add-btn:hover{
+    background-color: #1e8f2d;
+    color: #fff;
+}

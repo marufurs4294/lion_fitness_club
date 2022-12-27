@@ -16,6 +16,9 @@ const Card = (props) => {
             <p className="card-text text-muted">{description.slice(163, )}</p>
             <p>For Age: <span className='fw-bold'>{age}</span> </p>
             <p>Time Required: <span className='fw-bold'>{time} Minutes</span></p>
+            <div className='text-center pb-1'>
+            <button className='btn fw-bold add-btn'>Add to list</button>
+            </div>
           </div>
         </div>
       </div>
