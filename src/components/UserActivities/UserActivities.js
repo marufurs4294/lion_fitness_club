@@ -3,11 +3,11 @@ import './UserActivities.css'
 import BreakTime from "../BreakTime/BreakTime";
 import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
 
-const UserActivities = () => {
+const UserActivities = ({time}) => {
   return (
     <div >
       <BreakTime></BreakTime>
-      <ExerciseDetails></ExerciseDetails>
+      <ExerciseDetails time={time}></ExerciseDetails>
     </div>
   );
 };

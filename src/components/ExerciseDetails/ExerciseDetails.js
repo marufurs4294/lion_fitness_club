@@ -1,7 +1,14 @@
 import React from 'react';
 import './ExerciseDetails.css'
 
-const ExerciseDetails = () => {
+const ExerciseDetails = (props) => {
+    const {time} = props;
+    console.log(time)
+
+    let totalTime = 0;
+    for(const minutes of time){
+        totalTime = totalTime + minutes.time
+    }
     return (
         <div className='mt-4'>
             <div className='text-start ps-3'>
@@ -10,7 +17,7 @@ const ExerciseDetails = () => {
 
             <div className='d-flex justify-content-between px-3 py-2 pt-3 align-items-center fw-bold mt-3 bg-sky '>
                 <p>Exercise Time</p>
-                <p className='text-muted'> Minutes</p>
+                <p className='text-muted'>{totalTime} Minutes</p>
             </div>
             <div className='d-flex justify-content-between px-3 py-2 pt-3 align-items-center fw-bold mt-3 bg-sky '>
                 <p>Break Time</p>

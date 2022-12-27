@@ -6,11 +6,20 @@ import Activities from '../Activities/Activities';
 const Fitness = () => {
     const [fitness, setFitness] = useState([]);
 
+    const [time, setTime] = useState([]);
+
     useEffect(() => {
         fetch('fitness.json')
         .then(res => res.json())
         .then(data => setFitness(data))
-    },[])
+    },[]);
+
+    const handleAddToList = (fit) =>{
+        console.log(fit);
+
+        const newTime = [...time, fit]
+        setTime(newTime)
+      }
     return (
         <div>
             <div className='fitness m-5'>
@@ -23,13 +32,13 @@ const Fitness = () => {
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 
             {
-                    fitness.map(fit => <Card key={fit.id} fit={fit}></Card>)
+                    fitness.map(fit => <Card key={fit.id} fit={fit} handleAddToList={handleAddToList}></Card>)
                 }
                 </div>
                 
             </div>
             <div className="col-sm-12 col-md-3 col-lg-3">
-                <Activities></Activities>
+                <Activities time={time}></Activities>
             </div>
             </div>
             </div>

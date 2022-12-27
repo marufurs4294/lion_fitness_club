@@ -3,6 +3,8 @@ import './Card.css'
 
 const Card = (props) => {
     const {img, title, description, age, time} = props.fit;
+
+    const {handleAddToList} = props;
     return (
         <div className="col mx-0 my-4">
         <div className="card h-100 px-4 pt-4 pb-2">
@@ -17,7 +19,7 @@ const Card = (props) => {
             <p>For Age: <span className='fw-bold'>{age}</span> </p>
             <p>Time Required: <span className='fw-bold'>{time} Minutes</span></p>
             <div className='text-center pb-1'>
-            <button className='btn fw-bold add-btn'>Add to list</button>
+            <button onClick={() => handleAddToList(props.fit)}  className='btn fw-bold add-btn'>Add to list</button>
             </div>
           </div>
         </div>
