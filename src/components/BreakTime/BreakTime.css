@@ -1,0 +1,19 @@
+.break-time{
+    background-color: #e9ebf2;
+    border-radius: 10px;
+
+}
+.break-time button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.break-time button:hover{
+    background-color: #4B56D2;
+    color: #fff;
+}
