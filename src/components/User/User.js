@@ -1,5 +1,6 @@
 import React from 'react';
 import './User.css'
+import UserInfo from '../User-info/UserInfo';
 
 const User = () => {
     return (
@@ -13,7 +14,9 @@ const User = () => {
                     <p className='text-muted'> <i className="fa-sharp fa-solid fa-location-dot"></i> Rajshahi, Bangladesh</p>
                 </div>
             </div>
+            <UserInfo></UserInfo>
         </div>
+        
     );
 };
 
