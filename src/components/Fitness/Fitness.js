@@ -14,7 +14,7 @@ const Fitness = () => {
         <div>
             <div className='fitness m-5'>
             <div className="row flex-sm-column-reverse flex-lg-row">
-            <div className="col-sm-12 col-md-9 col-lg-9">
+            <div className="col-sm-12 col-md-9 col-lg-9 card-section">
             <div className='text-start'>
                 <h2 className='fw-bold club-name'> <i class="fa-brands fa-wolf-pack-battalion fs-1"></i> LION FITNESS CLUB</h2>
                 <h4 className='mt-4'>Select today's activities</h4>
