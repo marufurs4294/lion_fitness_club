@@ -47,7 +47,7 @@ const Fitness = () => {
     return (
         <div>
             <div className='fitness m-5'>
-            <div className="row flex-sm-column-reverse flex-lg-row">
+            <div className="row flex-column-reverse flex-lg-row">
             <div className="col-sm-12 col-md-9 col-lg-9 card-section">
             <div className='text-start'>
                 <h2 className='fw-bold club-name'> <i className="fa-brands fa-wolf-pack-battalion fs-1"></i> LION FITNESS CLUB</h2>
@@ -61,7 +61,7 @@ const Fitness = () => {
                 </div>
                 
             </div>
-            <div className="col-sm-12 col-md-3 col-lg-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 mb-5">
                 <Activities time={time}></Activities>
             </div>
             </div>
