@@ -3,11 +3,13 @@ import './ExerciseDetails.css'
 
 const ExerciseDetails = (props) => {
     const {time} = props;
-    console.log(time)
+    // console.log(time)
 
     let totalTime = 0;
+    let quantity = 0;
     for(const minutes of time){
-        totalTime = totalTime + minutes.time
+        quantity = quantity + minutes.quantity;
+        totalTime = totalTime + minutes.time * minutes.quantity
     }
     return (
         <div className='mt-4'>

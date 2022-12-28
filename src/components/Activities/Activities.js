@@ -4,7 +4,7 @@ import User from '../User/User';
 import UserActivities from '../UserActivities/UserActivities';
 
 const Activities = ({time}) => {
-    console.log(time)
+    // console.log(time)
     return (
         <div className='Activity pt-3'>
             <User></User>

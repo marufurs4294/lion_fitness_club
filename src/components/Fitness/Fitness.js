@@ -2,23 +2,47 @@ import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import './Fitness.css'
 import Activities from '../Activities/Activities';
+import { addToDb, getStoredTime  } from '../../utilities/fakedb';
+
 
 const Fitness = () => {
     const [fitness, setFitness] = useState([]);
 
     const [time, setTime] = useState([]);
-
     useEffect(() => {
         fetch('fitness.json')
         .then(res => res.json())
         .then(data => setFitness(data))
     },[]);
 
-    const handleAddToList = (fit) =>{
-        console.log(fit);
+    useEffect( () => {
+        const storedTime = getStoredTime ();
+        const saveTime = []
+        for(const id in storedTime){
+            const addedTime = fitness.find(gym => gym.id === id);
+            if(addedTime){
+                const quantity = storedTime[id]
+                addedTime.quantity = quantity;
+                saveTime.push(addedTime)
+            }
+        }
+        setTime(saveTime)
+    },[fitness])
 
-        const newTime = [...time, fit]
+    const handleAddToList = (selectedTime) =>{
+        let newTime = []
+        const exists = time.find(gym => gym.id === selectedTime.id)
+        if(!exists){
+            selectedTime.quantity = 1;
+            newTime = [...time,selectedTime ]
+        }
+        else{
+            const rest = time.filter(gym => gym.id !== selectedTime.id)
+            exists.quantity = exists.quantity + 1;
+            newTime = [...rest, exists]
+        }
         setTime(newTime)
+        addToDb(selectedTime.id)
       }
     return (
         <div>
