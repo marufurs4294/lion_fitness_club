@@ -22,6 +22,14 @@ const Blog = () => {
                 </div>
                 
             </div>
+            <div className='text-start'>
+                <p className='fw-bold fs-4'>What is the use of useEffect other than loading data?</p>
+                <div className='d-flex'>
+                    <div className='pe-2'><p className='fw-bold'>Answer:</p></div>
+                    <div><p>The useEffect Hook allows you to perform side effects in your components. Use of useEffect other than loading data: directly updating the DOM and setting up subscriptions or timers.</p></div>
+                </div>
+                
+            </div>
         </div>
     );
 };
